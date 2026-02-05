@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="itcl.etraffic.application/itcl.etraffic.application.csproj" />
+  <Project Path="itcl.etraffic.domain/itcl.etraffic.domain.csproj" />
+  <Project Path="itcl.etraffic.infrastructure/itcl.etraffic.infrastructure.csproj" />
+  <Project Path="itcl.etraffic.persistance/itcl.etraffic.persistance.csproj" />
+  <Project Path="itcl.etraffic.sharedweb/itcl.etraffic.sharedweb.csproj" />
+  <Project Path="itcl.etraffic.utility/itcl.etraffic.utility.csproj" />
+  <Project Path="itcl.etraffic.webapi/itcl.etraffic.webapi.csproj" />
+</Solution>
