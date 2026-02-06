@@ -1,55 +1,59 @@
 using System;
 
-public class ProcNonfircustomerreportbyformnoornonfirnoResult
+
+namespace itcl.etraffic.domain.Entity
 {
-    public Int64 Iid { get; set; }
-    public String Formno { get; set; }
-    public String Serialno { get; set; }
-    public Int32 Vehicleregistrationid { get; set; }
-    public Int32 Seriesid { get; set; }
-    public String Vehicleno { get; set; }
-    public String Chasisno { get; set; }
-    public Int32? Isspecial { get; set; }
-    public Int32? Specialtypeid { get; set; }
-    public String Accusedperson { get; set; }
-    public String Owner { get; set; }
-    public String Owneraddress { get; set; }
-    public DateTime? Dateofoffence { get; set; }
-    public DateTime? Dateofhearing { get; set; }
-    public Int64? Sergeantid { get; set; }
-    public Int32? Status { get; set; }
-    public DateTime? Donedate { get; set; }
-    public DateTime? Helddate { get; set; }
-    public Int32? Nonfirstatus { get; set; }
-    public DateTime? Nonfirdate { get; set; }
-    public DateTime? Courtwarrantdate { get; set; }
-    public DateTime? Caseresolvedate { get; set; }
-    public Int32 Paymentstatus { get; set; }
-    public Int32 Paymentmedium { get; set; }
-    public Decimal? Discount { get; set; }
-    public Int64? Discountby { get; set; }
-    public DateTime? Discountdate { get; set; }
-    public Decimal Total { get; set; }
-    public Decimal Collectionamount { get; set; }
-    public String Drivinglicence { get; set; }
-    public Decimal? Extraamount { get; set; }
-    public String Comments { get; set; }
-    public DateTime Createdate { get; set; }
-    public DateTime Updatedate { get; set; }
-    public Int64 Createby { get; set; }
-    public Int64 Updateby { get; set; }
-    public Int32 Isremoved { get; set; }
-    public String Nonfirno { get; set; }
-    public String Caseslipno { get; set; }
-    public Int32? Entrymediumid { get; set; }
-    public Int32? Divisionid { get; set; }
-    public Int32? Serialnotypeid { get; set; }
-    public String Fathername { get; set; }
-    public String Witness { get; set; }
-    public String Divisionname { get; set; }
-    public String Sergeantname { get; set; }
-    public String Designationname { get; set; }
-    public String Location { get; set; }
-    public String Bpid { get; set; }
-    public String Name { get; set; }
+    public class ProcNonfircustomerreportbyformnoornonfirnoResult
+    {
+        public long Iid { get; set; }
+        public string? Formno { get; set; }
+        public string? Serialno { get; set; }
+        public int Vehicleregistrationid { get; set; }
+        public int Seriesid { get; set; }
+        public string? Vehicleno { get; set; }
+        public string? Chasisno { get; set; }
+        public int? Isspecial { get; set; }
+        public int? Specialtypeid { get; set; }
+        public string? Accusedperson { get; set; }
+        public string? Owner { get; set; }
+        public string? Owneraddress { get; set; }
+        public DateTime? Dateofoffence { get; set; }
+        public DateTime? Dateofhearing { get; set; }
+        public long? Sergeantid { get; set; }
+        public int? Status { get; set; }
+        public DateTime? Donedate { get; set; }
+        public DateTime? Helddate { get; set; }
+        public int? Nonfirstatus { get; set; }
+        public DateTime? Nonfirdate { get; set; }
+        public DateTime? Courtwarrantdate { get; set; }
+        public DateTime? Caseresolvedate { get; set; }
+        public int Paymentstatus { get; set; }
+        public int Paymentmedium { get; set; }
+        public decimal? Discount { get; set; }
+        public long? Discountby { get; set; }
+        public DateTime? Discountdate { get; set; }
+        public decimal Total { get; set; }
+        public decimal Collectionamount { get; set; }
+        public string? Drivinglicence { get; set; }
+        public decimal? Extraamount { get; set; }
+        public string? Comments { get; set; }
+        public DateTime Createdate { get; set; }
+        public DateTime Updatedate { get; set; }
+        public long Createby { get; set; }
+        public long Updateby { get; set; }
+        public int Isremoved { get; set; }
+        public string? Nonfirno { get; set; }
+        public string? Caseslipno { get; set; }
+        public int? Entrymediumid { get; set; }
+        public int? Divisionid { get; set; }
+        public int? Serialnotypeid { get; set; }
+        public string? Fathername { get; set; }
+        public string? Witness { get; set; }
+        public string? Divisionname { get; set; }
+        public string? Sergeantname { get; set; }
+        public string? Designationname { get; set; }
+        public string? Location { get; set; }
+        public string? Bpid { get; set; }
+        public string? Name { get; set; }
+    }
 }

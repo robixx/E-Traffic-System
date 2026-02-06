@@ -1,7 +1,11 @@
 using System;
 
-public class ProcSergeantwisecasetotalResult
+
+namespace itcl.etraffic.domain.Entity
 {
-    public String CaseDate { get; set; }
-    public Int32? TotalCase { get; set; }
+    public class ProcSergeantwisecasetotalResult
+    {
+        public string? CaseDate { get; set; }
+        public int? TotalCase { get; set; }
+    }
 }

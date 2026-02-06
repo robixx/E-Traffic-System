@@ -1,7 +1,11 @@
 using System;
 
-public class ProcPagemenulistbycategoryidandroleidResult
+
+namespace itcl.etraffic.domain.Entity
 {
-    public String Name { get; set; }
-    public String Pageurl { get; set; }
+    public class ProcPagemenulistbycategoryidandroleidResult
+    {
+        public string? Name { get; set; }
+        public string? Pageurl { get; set; }
+    }
 }

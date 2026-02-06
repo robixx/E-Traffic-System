@@ -1,9 +1,13 @@
 using System;
 
-public class ProcMonthlysummaryreportResult
+
+namespace itcl.etraffic.domain.Entity
 {
-    public String Month { get; set; }
-    public Int32? Totalcase { get; set; }
-    public Decimal? Totaamount { get; set; }
-    public Decimal? Collectionamount { get; set; }
+    public class ProcMonthlysummaryreportResult
+    {
+        public string? Month { get; set; }
+        public int? Totalcase { get; set; }
+        public decimal? Totaamount { get; set; }
+        public decimal? Collectionamount { get; set; }
+    }
 }

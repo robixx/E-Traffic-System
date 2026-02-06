@@ -1,8 +1,14 @@
 using System;
 
-public class ProcProsecutionandserieswisecaseResult
+
+namespace itcl.etraffic.domain.Entity
 {
-    public Int64 Iid { get; set; }
-    public DateTime Createdate { get; set; }
-    public String Vehicleno { get; set; }
+
+
+    public class ProcProsecutionandserieswisecaseResult
+    {
+        public long Iid { get; set; }
+        public DateTime Createdate { get; set; }
+        public string? Vehicleno { get; set; }
+    }
 }

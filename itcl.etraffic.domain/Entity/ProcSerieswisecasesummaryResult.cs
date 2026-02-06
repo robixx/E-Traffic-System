@@ -1,9 +1,13 @@
 using System;
 
-public class ProcSerieswisecasesummaryResult
+
+namespace itcl.etraffic.domain.Entity
 {
-    public String Name { get; set; }
-    public Int32? Totalcase { get; set; }
-    public Decimal? Totaamount { get; set; }
-    public Decimal? Collectionamount { get; set; }
+    public class ProcSerieswisecasesummaryResult
+    {
+        public string? Name { get; set; }
+        public int? Totalcase { get; set; }
+        public decimal? Totaamount { get; set; }
+        public decimal? Collectionamount { get; set; }
+    }
 }

@@ -1,9 +1,13 @@
 using System;
 
-public class ProcsergeantwisetotalResult
+
+namespace itcl.etraffic.domain.Entity
 {
-    public Int64 Iid { get; set; }
-    public String Code { get; set; }
-    public String Name { get; set; }
-    public Int32? CaseTotal { get; set; }
+    public class ProcsergeantwisetotalResult
+    {
+        public long Iid { get; set; }
+        public string? Code { get; set; }
+        public string? Name { get; set; }
+        public int? CaseTotal { get; set; }
+    }
 }

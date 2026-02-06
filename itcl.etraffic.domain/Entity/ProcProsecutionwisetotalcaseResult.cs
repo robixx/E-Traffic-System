@@ -1,7 +1,10 @@
 using System;
 
-public class ProcProsecutionwisetotalcaseResult
+namespace itcl.etraffic.domain.Entity
 {
-    public String Pname { get; set; }
-    public Int32? Total { get; set; }
+    public class ProcProsecutionwisetotalcaseResult
+    {
+        public string? Pname { get; set; }
+        public int? Total { get; set; }
+    }
 }

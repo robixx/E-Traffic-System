@@ -1,10 +1,14 @@
 using System;
 
-public class ProcYearlysummaryreportResult
+
+namespace itcl.etraffic.domain.Entity
 {
-    public String Year { get; set; }
-    public String Division { get; set; }
-    public Int32? Totalcase { get; set; }
-    public Decimal? Totaamount { get; set; }
-    public Decimal? Collectionamount { get; set; }
+    public class ProcYearlysummaryreportResult
+    {
+        public string? Year { get; set; }
+        public string? Division { get; set; }
+        public int? Totalcase { get; set; }
+        public decimal? Totaamount { get; set; }
+        public decimal? Collectionamount { get; set; }
+    }
 }

@@ -1,10 +1,14 @@
 using System;
 
-public class ProcsergeantcasetotalResult
+
+namespace itcl.etraffic.domain.Entity
 {
-    public Int64 Iid { get; set; }
-    public String Sergentname { get; set; }
-    public String Sergentcode { get; set; }
-    public Int32? Totalcasecount { get; set; }
-    public Decimal? Totalamount { get; set; }
+    public class ProcsergeantcasetotalResult
+    {
+        public long IId { get; set; }
+        public string? Sergentname { get; set; }
+        public string? Sergentcode { get; set; }
+        public int? Totalcasecount { get; set; }
+        public decimal? Totalamount { get; set; }
+    }
 }
