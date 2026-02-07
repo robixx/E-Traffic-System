@@ -1,8 +1,11 @@
 using System;
 
-public class WreckerWebUserDivisions
+namespace itcl.etraffic.domain.Entity
 {
-    public int Id { get; set; }
-    public int Userid { get; set; }
-    public int Divisionid { get; set; }
+    public class WreckerWebUserDivisions
+    {
+        public int Id { get; set; }
+        public int Userid { get; set; }
+        public int Divisionid { get; set; }
+    }
 }

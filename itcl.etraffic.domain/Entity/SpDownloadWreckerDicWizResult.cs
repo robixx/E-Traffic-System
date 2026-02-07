@@ -1,7 +1,10 @@
 using System;
 
-public class SpDownloadWreckerDicWizResult
+namespace itcl.etraffic.domain.Entity
 {
-    public Int32 Iid { get; set; }
-    public String Wrecker { get; set; }
+    public class SpDownloadWreckerDicWizResult
+    {
+        public int Iid { get; set; }
+        public string? Wrecker { get; set; }
+    }
 }

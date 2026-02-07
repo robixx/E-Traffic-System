@@ -1,15 +1,18 @@
 using System;
 
-public class SergeantgetbydesignationidResult
+namespace itcl.etraffic.domain.Entity
 {
-    public Int64 Iid { get; set; }
-    public String Code { get; set; }
-    public String Name { get; set; }
-    public String Address { get; set; }
-    public String Phone { get; set; }
-    public String Cell { get; set; }
-    public Int32? Zoneid { get; set; }
-    public Int32? Divisionid { get; set; }
-    public Int32? Isremoved { get; set; }
-    public Int64? Designationid { get; set; }
+    public class SergeantgetbydesignationidResult
+    {
+        public long Iid { get; set; }
+        public string? Code { get; set; }
+        public string? Name { get; set; }
+        public string? Address { get; set; }
+        public string? Phone { get; set; }
+        public string? Cell { get; set; }
+        public int? Zoneid { get; set; }
+        public int? Divisionid { get; set; }
+        public int? Isremoved { get; set; }
+        public long? Designationid { get; set; }
+    }
 }

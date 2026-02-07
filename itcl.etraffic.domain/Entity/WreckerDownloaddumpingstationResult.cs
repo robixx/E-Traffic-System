@@ -1,7 +1,11 @@
 using System;
 
-public class WreckerDownloaddumpingstationResult
+
+namespace itcl.etraffic.domain.Entity
 {
-    public Int64 Iid { get; set; }
-    public String Stationname { get; set; }
+    public class WreckerDownloaddumpingstationResult
+    {
+        public long Iid { get; set; }
+        public string? Stationname { get; set; }
+    }
 }

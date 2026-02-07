@@ -1,12 +1,17 @@
 using System;
 
-public class WreckerGetdumpingstationlistallResult
+
+namespace itcl.etraffic.domain.Entity
 {
-    public Int64 Stationid { get; set; }
-    public String Stationname { get; set; }
-    public String Stationaddress { get; set; }
-    public Int32 Divisionid { get; set; }
-    public String Division { get; set; }
-    public Int32 Isremoved { get; set; }
-    public String Status { get; set; }
+    public class WreckerGetdumpingstationlistallResult
+    {
+        public long Stationid { get; set; }
+        public string? Stationname { get; set; }
+        public string? Stationaddress { get; set; }
+        public int Divisionid { get; set; }
+        public string? Division { get; set; }
+        public int Isremoved { get; set; }
+        public string? Status { get; set; }
+    }
+
 }

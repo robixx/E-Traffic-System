@@ -1,9 +1,13 @@
 using System;
 
-public class WreckerReportUsers
+
+namespace itcl.etraffic.domain.Entity
 {
-    public int Id { get; set; }
-    public int Userid { get; set; }
-    public int Rid { get; set; }
-    public int Status { get; set; }
+    public class WreckerReportUsers
+    {
+        public int Id { get; set; }
+        public int Userid { get; set; }
+        public int Rid { get; set; }
+        public int Status { get; set; }
+    }
 }

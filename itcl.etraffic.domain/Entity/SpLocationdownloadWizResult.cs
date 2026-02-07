@@ -1,8 +1,12 @@
 using System;
 
-public class SpLocationdownloadWizResult
+
+namespace itcl.etraffic.domain.Entity
 {
-    public Int32 Id { get; set; }
-    public String Code { get; set; }
-    public String Location { get; set; }
+    public class SpLocationdownloadWizResult
+    {
+        public int Id { get; set; }
+        public string? Code { get; set; }
+        public string? Location { get; set; }
+    }
 }

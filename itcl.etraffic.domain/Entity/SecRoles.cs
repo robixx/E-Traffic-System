@@ -1,8 +1,11 @@
 using System;
 
-public class SecRoles
+namespace itcl.etraffic.domain.Entity
 {
-    public int Roleid { get; set; }
-    public string Rolename { get; set; }
-    public string Description { get; set; }
+    public class SecRoles
+    {
+        public int Roleid { get; set; }
+        public string? Rolename { get; set; }
+        public string? Description { get; set; }
+    }
 }

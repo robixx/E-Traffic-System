@@ -1,14 +1,18 @@
 using System;
 
-public class ProsecutortransfergetallResult
+
+namespace itcl.etraffic.domain.Entity
 {
-    public Int64 Iid { get; set; }
-    public Int32 Divisionid { get; set; }
-    public Int64 Prosecutorid { get; set; }
-    public DateTime Createdate { get; set; }
-    public DateTime Updatedate { get; set; }
-    public Int64 Createby { get; set; }
-    public Int64 Updateby { get; set; }
-    public Int32 Isremoved { get; set; }
-    public Int32 Isactive { get; set; }
+    public class ProsecutortransfergetallResult
+    {
+        public long Iid { get; set; }
+        public int Divisionid { get; set; }
+        public long Prosecutorid { get; set; }
+        public DateTime Createdate { get; set; }
+        public DateTime Updatedate { get; set; }
+        public long Createby { get; set; }
+        public long Updateby { get; set; }
+        public int Isremoved { get; set; }
+        public int Isactive { get; set; }
+    }
 }

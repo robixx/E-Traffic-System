@@ -1,9 +1,13 @@
 using System;
 
-public class SpGetvideocaseattachmentbyidResult
+
+namespace itcl.etraffic.domain.Entity
 {
-    public Int64 Iid { get; set; }
-    public Int64 Videocaseid { get; set; }
-    public String Attachmentfilename { get; set; }
-    public Int32 Status { get; set; }
+    public class SpGetvideocaseattachmentbyidResult
+    {
+        public long Iid { get; set; }
+        public long Videocaseid { get; set; }
+        public string? Attachmentfilename { get; set; }
+        public int Status { get; set; }
+    }
 }

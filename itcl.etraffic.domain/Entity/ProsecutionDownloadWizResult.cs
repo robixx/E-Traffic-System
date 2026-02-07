@@ -1,9 +1,12 @@
 using System;
 
-public class ProsecutionDownloadWizResult
+namespace itcl.etraffic.domain.Entity
 {
-    public Int32 Id { get; set; }
-    public Int32 Cid { get; set; }
-    public String Code { get; set; }
-    public String Comments { get; set; }
+    public class ProsecutionDownloadWizResult
+    {
+        public int Id { get; set; }
+        public int Cid { get; set; }
+        public string? Code { get; set; }
+        public string? Comments { get; set; }
+    }
 }

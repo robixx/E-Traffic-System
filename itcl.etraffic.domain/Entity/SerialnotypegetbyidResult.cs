@@ -1,8 +1,11 @@
 using System;
 
-public class SerialnotypegetbyidResult
+namespace itcl.etraffic.domain.Entity
 {
-    public Int32 Iid { get; set; }
-    public String Name { get; set; }
-    public Int32 Isremoved { get; set; }
+    public class SerialnotypegetbyidResult
+    {
+        public int IId { get; set; }
+        public string? Name { get; set; }
+        public int Isremoved { get; set; }
+    }
 }

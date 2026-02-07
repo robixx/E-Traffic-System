@@ -1,6 +1,10 @@
 using System;
 
-public class SpGetslnoResult
+
+namespace itcl.etraffic.domain.Entity
 {
-    public String Serialno { get; set; }
+    public class SpGetslnoResult
+    {
+        public string? Serialno { get; set; }
+    }
 }

@@ -1,11 +1,14 @@
 using System;
 
-public class SpVehiclecaseprosecutioncommentlistResult
+namespace itcl.etraffic.domain.Entity
 {
-    public Int64? Caseid { get; set; }
-    public Int32? Prosecutionid { get; set; }
-    public String Prosecutionname { get; set; }
-    public Int32? Commentid { get; set; }
-    public String Commentname { get; set; }
-    public Int32? Isselected { get; set; }
+    public class SpVehiclecaseprosecutioncommentlistResult
+    {
+        public long? Caseid { get; set; }
+        public long? Prosecutionid { get; set; }
+        public string? Prosecutionname { get; set; }
+        public int? Commentid { get; set; }
+        public string? Commentname { get; set; }
+        public int? Isselected { get; set; }
+    }
 }

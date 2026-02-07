@@ -1,9 +1,13 @@
 using System;
 
-public class SpGetusermenubyuseridResult
+
+namespace itcl.etraffic.domain.Entity
 {
-    public Int64 Roleid { get; set; }
-    public String Name { get; set; }
-    public String Url { get; set; }
-    public String Category { get; set; }
+    public class SpGetusermenubyuseridResult
+    {
+        public long Roleid { get; set; }
+        public string? Name { get; set; }
+        public string? Url { get; set; }
+        public string? Category { get; set; }
+    }
 }

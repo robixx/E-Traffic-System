@@ -1,10 +1,15 @@
 using System;
 
-public class UspMonthlyReportRemovedResult
+
+namespace itcl.etraffic.domain.Entity
 {
-    public String Division { get; set; }
-    public Int32? TotalCase { get; set; }
-    public Decimal? TotalAmount { get; set; }
-    public Int32? UcblCount { get; set; }
-    public Decimal? PaymentReceivedByUcbl { get; set; }
+
+    public class UspMonthlyReportRemovedResult
+    {
+        public string? Division { get; set; }
+        public int? TotalCase { get; set; }
+        public decimal? TotalAmount { get; set; }
+        public int? UcblCount { get; set; }
+        public decimal? PaymentReceivedByUcbl { get; set; }
+    }
 }

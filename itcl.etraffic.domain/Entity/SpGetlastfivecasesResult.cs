@@ -1,8 +1,11 @@
 using System;
 
-public class SpGetlastfivecasesResult
+namespace itcl.etraffic.domain.Entity
 {
-    public String Formno { get; set; }
-    public String Vehicle { get; set; }
-    public String Code { get; set; }
+    public class SpGetlastfivecasesResult
+    {
+        public string? Formno { get; set; }
+        public string? Vehicle { get; set; }
+        public string? Code { get; set; }
+    }
 }

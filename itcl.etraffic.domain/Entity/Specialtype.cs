@@ -1,8 +1,11 @@
 using System;
 
-public class Specialtype
+namespace itcl.etraffic.domain.Entity
 {
-    public int Iid { get; set; }
-    public string Name { get; set; }
-    public int Isremoved { get; set; }
+    public class Specialtype
+    {
+        public int Iid { get; set; }
+        public string? Name { get; set; }
+        public int Isremoved { get; set; }
+    }
 }

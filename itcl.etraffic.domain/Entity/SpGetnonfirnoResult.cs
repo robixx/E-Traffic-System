@@ -1,6 +1,9 @@
 using System;
 
-public class SpGetnonfirnoResult
+namespace itcl.etraffic.domain.Entity
 {
-    public String Nonfirno { get; set; }
+    public class SpGetnonfirnoResult
+    {
+        public string? Nonfirno { get; set; }
+    }
 }

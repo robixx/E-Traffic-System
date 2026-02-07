@@ -1,14 +1,18 @@
 using System;
 
-public class ProsecutiongetbyidResult
+
+namespace itcl.etraffic.domain.Entity
 {
-    public Int32 Iid { get; set; }
-    public String Code { get; set; }
-    public String Banglacode { get; set; }
-    public String Name { get; set; }
-    public Decimal Amount { get; set; }
-    public String Banglaamount { get; set; }
-    public Decimal Specialamount { get; set; }
-    public String Specialbanglaamount { get; set; }
-    public Int32 Isremoved { get; set; }
+    public class ProsecutiongetbyidResult
+    {
+        public int Iid { get; set; }
+        public string? Code { get; set; }
+        public string? Banglacode { get; set; }
+        public string? Name { get; set; }
+        public decimal Amount { get; set; }
+        public string? Banglaamount { get; set; }
+        public decimal Specialamount { get; set; }
+        public string? Specialbanglaamount { get; set; }
+        public int Isremoved { get; set; }
+    }
 }

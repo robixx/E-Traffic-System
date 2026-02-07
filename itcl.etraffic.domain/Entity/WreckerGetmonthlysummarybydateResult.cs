@@ -1,10 +1,14 @@
 using System;
 
-public class WreckerGetmonthlysummarybydateResult
+
+namespace itcl.etraffic.domain.Entity
 {
-    public String Division { get; set; }
-    public Int32? Totalcase { get; set; }
-    public Decimal? Totalfineamount { get; set; }
-    public Decimal? Discountamount { get; set; }
-    public Decimal? Collectionamount { get; set; }
+    public class WreckerGetmonthlysummarybydateResult
+    {
+        public string? Division { get; set; }
+        public int? Totalcase { get; set; }
+        public decimal? Totalfineamount { get; set; }
+        public decimal? Discountamount { get; set; }
+        public decimal? Collectionamount { get; set; }
+    }
 }

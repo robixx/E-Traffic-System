@@ -1,18 +1,22 @@
 using System;
 
-public class UserinformationgetallResult
+
+namespace itcl.etraffic.domain.Entity
 {
-    public Int64 Iid { get; set; }
-    public String Name { get; set; }
-    public String Loginname { get; set; }
-    public String Password { get; set; }
-    public String Phone { get; set; }
-    public String Cell { get; set; }
-    public String Email { get; set; }
-    public DateTime Createdate { get; set; }
-    public DateTime Updatedate { get; set; }
-    public Int64 Createby { get; set; }
-    public Int64 Updateby { get; set; }
-    public Int32 Isremoved { get; set; }
-    public Int32 Divisionid { get; set; }
+    public class UserinformationgetallResult
+    {
+        public long Iid { get; set; }
+        public string? Name { get; set; }
+        public string? Loginname { get; set; }
+        public string? Password { get; set; }
+        public string? Phone { get; set; }
+        public string? Cell { get; set; }
+        public string? Email { get; set; }
+        public DateTime Createdate { get; set; }
+        public DateTime Updatedate { get; set; }
+        public long Createby { get; set; }
+        public long Updateby { get; set; }
+        public int Isremoved { get; set; }
+        public int Divisionid { get; set; }
+    }
 }

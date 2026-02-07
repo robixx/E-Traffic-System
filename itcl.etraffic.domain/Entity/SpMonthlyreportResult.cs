@@ -1,15 +1,19 @@
 using System;
 
-public class SpMonthlyreportResult
+
+namespace itcl.etraffic.domain.Entity
 {
-    public String Divisionname { get; set; }
-    public Int32? Totalcase { get; set; }
-    public Decimal? Totalamount { get; set; }
-    public Int32? Totalcasepaidbyucash { get; set; }
-    public Decimal? Totalfinecollectedbyucash { get; set; }
-    public Int32? Totalcasepaidbyupay { get; set; }
-    public Decimal? Totalfinecollectedbyupay { get; set; }
-    public Int32? Totalcasepaidbycbbl { get; set; }
-    public Decimal? Totalfinecollectedbycbbl { get; set; }
-    public Decimal? Totalcollection { get; set; }
+    public class SpMonthlyreportResult
+    {
+        public string? Divisionname { get; set; }
+        public int? Totalcase { get; set; }
+        public decimal? Totalamount { get; set; }
+        public int? Totalcasepaidbyucash { get; set; }
+        public decimal? Totalfinecollectedbyucash { get; set; }
+        public int? Totalcasepaidbyupay { get; set; }
+        public decimal? Totalfinecollectedbyupay { get; set; }
+        public int? Totalcasepaidbycbbl { get; set; }
+        public decimal? Totalfinecollectedbycbbl { get; set; }
+        public decimal? Totalcollection { get; set; }
+    }
 }

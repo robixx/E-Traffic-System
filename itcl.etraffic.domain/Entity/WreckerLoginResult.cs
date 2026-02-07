@@ -1,8 +1,12 @@
 using System;
 
-public class WreckerLoginResult
+
+namespace itcl.etraffic.domain.Entity
 {
-    public Int64 Iid { get; set; }
-    public String Name { get; set; }
-    public String Divisionname { get; set; }
+    public class WreckerLoginResult
+    {
+        public long Iid { get; set; }
+        public string? Name { get; set; }
+        public string? Divisionname { get; set; }
+    }
 }

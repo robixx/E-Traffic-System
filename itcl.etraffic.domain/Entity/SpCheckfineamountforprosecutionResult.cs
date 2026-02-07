@@ -1,6 +1,8 @@
 using System;
-
-public class SpCheckfineamountforprosecutionResult
+namespace itcl.etraffic.domain.Entity
 {
-    public Decimal? Totalamount { get; set; }
+    public class SpCheckfineamountforprosecutionResult
+    {
+        public decimal? Totalamount { get; set; }
+    }
 }

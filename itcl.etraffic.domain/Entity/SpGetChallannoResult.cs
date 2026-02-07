@@ -1,6 +1,10 @@
 using System;
 
-public class SpGetChallannoResult
+
+namespace itcl.etraffic.domain.Entity
 {
-    public Int64? Challanno { get; set; }
+    public class SpGetChallannoResult
+    {
+        public long? Challanno { get; set; }
+    }
 }

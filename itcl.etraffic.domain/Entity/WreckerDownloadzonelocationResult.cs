@@ -1,7 +1,11 @@
 using System;
 
-public class WreckerDownloadzonelocationResult
+
+namespace itcl.etraffic.domain.Entity
 {
-    public Int32 Iid { get; set; }
-    public String Callsign { get; set; }
+    public class WreckerDownloadzonelocationResult
+    {
+        public int Iid { get; set; }
+        public string? Callsign { get; set; }
+    }
 }

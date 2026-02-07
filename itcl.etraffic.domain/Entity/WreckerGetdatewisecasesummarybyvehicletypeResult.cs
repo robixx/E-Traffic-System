@@ -1,10 +1,14 @@
 using System;
 
-public class WreckerGetdatewisecasesummarybyvehicletypeResult
+namespace itcl.etraffic.domain.Entity
 {
-    public DateTime? Offencedate { get; set; }
-    public String Division { get; set; }
-    public String Typename { get; set; }
-    public Int32? Totalcase { get; set; }
-    public Decimal? Totalfineamount { get; set; }
+
+    public class WreckerGetdatewisecasesummarybyvehicletypeResult
+    {
+        public DateTime? Offencedate { get; set; }
+        public string? Division { get; set; }
+        public string? Typename { get; set; }
+        public int? Totalcase { get; set; }
+        public decimal? Totalfineamount { get; set; }
+    }
 }

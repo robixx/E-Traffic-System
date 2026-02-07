@@ -1,15 +1,18 @@
 using System;
 
-public class SpGetremovedcasebyidResult
+namespace itcl.etraffic.domain.Entity
 {
-    public Int64 Caseid { get; set; }
-    public String Vehiclenumber { get; set; }
-    public String Divisionname { get; set; }
-    public String Accusedpersion { get; set; }
-    public String Comments { get; set; }
-    public String Dateofoffence { get; set; }
-    public String Paymentdate { get; set; }
-    public String Casestatus { get; set; }
-    public String Prosecution { get; set; }
-    public String Seizeddocument { get; set; }
+    public class SpGetremovedcasebyidResult
+    {
+        public long Caseid { get; set; }
+        public string? Vehiclenumber { get; set; }
+        public string? Divisionname { get; set; }
+        public string? Accusedpersion { get; set; }
+        public string? Comments { get; set; }
+        public string? Dateofoffence { get; set; }
+        public string? Paymentdate { get; set; }
+        public string? Casestatus { get; set; }
+        public string? Prosecution { get; set; }
+        public string? Seizeddocument { get; set; }
+    }
 }

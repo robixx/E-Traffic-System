@@ -1,10 +1,14 @@
 using System;
 
-public class UspGetSecUserroleResult
+
+namespace itcl.etraffic.domain.Entity
 {
-    public Int32? Userid { get; set; }
-    public String Username { get; set; }
-    public Int32? Roleid { get; set; }
-    public String Rolename { get; set; }
-    public String Issysadmin { get; set; }
+    public class UspGetSecUserroleResult
+    {
+        public int? Userid { get; set; }
+        public string? Username { get; set; }
+        public int? Roleid { get; set; }
+        public string? Rolename { get; set; }
+        public string? Issysadmin { get; set; }
+    }
 }

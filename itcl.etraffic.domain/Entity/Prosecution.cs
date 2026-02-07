@@ -4,8 +4,6 @@ using System;
 
 namespace itcl.etraffic.domain.Entity
 {
-
-
     public class Prosecution
     {
         public int Iid { get; set; }

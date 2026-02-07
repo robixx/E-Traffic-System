@@ -1,11 +1,14 @@
 using System;
 
-public class SecRoleModules
+namespace itcl.etraffic.domain.Entity
 {
-    public int Rolemoduleid { get; set; }
-    public int Roleid { get; set; }
-    public int Moduleid { get; set; }
-    public int Insertby { get; set; }
-    public DateTime Insertdate { get; set; }
-    public int Status { get; set; }
+    public class SecRoleModules
+    {
+        public int Rolemoduleid { get; set; }
+        public int Roleid { get; set; }
+        public int Moduleid { get; set; }
+        public int Insertby { get; set; }
+        public DateTime Insertdate { get; set; }
+        public int Status { get; set; }
+    }
 }

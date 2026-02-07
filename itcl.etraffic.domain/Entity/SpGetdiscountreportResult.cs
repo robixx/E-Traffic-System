@@ -6,14 +6,14 @@ namespace itcl.etraffic.domain.Entity
     public class SpGetdiscountreportResult
     {
         public long Caseid { get; set; }
-        public String? Vehicleno { get; set; }
-        public Decimal? Totalamount { get; set; }
-        public Decimal Collectedamount { get; set; }
-        public Decimal? Discountedration { get; set; }
-        public Decimal? Discountedamount { get; set; }
-        public String? Discountedby { get; set; }
-        public String? Division { get; set; }
+        public string? Vehicleno { get; set; }
+        public decimal? Totalamount { get; set; }
+        public decimal Collectedamount { get; set; }
+        public decimal? Discountedration { get; set; }
+        public decimal? Discountedamount { get; set; }
+        public string? Discountedby { get; set; }
+        public string? Division { get; set; }
         public DateTime? Discountdate { get; set; }
-        public String? Status { get; set; }
+        public string? Status { get; set; }
     }
 }

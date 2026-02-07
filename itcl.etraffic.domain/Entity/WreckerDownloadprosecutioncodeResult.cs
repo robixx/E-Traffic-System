@@ -1,9 +1,13 @@
 using System;
 
-public class WreckerDownloadprosecutioncodeResult
+
+namespace itcl.etraffic.domain.Entity
 {
-    public Int64 Iid { get; set; }
-    public String Code { get; set; }
-    public String Typename { get; set; }
-    public Decimal? Fineamount { get; set; }
+    public class WreckerDownloadprosecutioncodeResult
+    {
+        public long Iid { get; set; }
+        public string? Code { get; set; }
+        public string? Typename { get; set; }
+        public decimal? Fineamount { get; set; }
+    }
 }

@@ -1,17 +1,20 @@
 using System;
 
-public class SpVideocaseviewforprintResult
+namespace itcl.etraffic.domain.Entity
 {
-    public Int64 Iid { get; set; }
-    public String Videocasesarokno { get; set; }
-    public String Vehiclenumber { get; set; }
-    public String Ownername { get; set; }
-    public String Owneraddress { get; set; }
-    public String Contactnumber { get; set; }
-    public String Caseid { get; set; }
-    public String Division { get; set; }
-    public DateTime? Eventtime { get; set; }
-    public String Eventlocation { get; set; }
-    public String Prosecution { get; set; }
-    public DateTime? Hearingdate { get; set; }
+    public class SpVideocaseviewforprintResult
+    {
+        public long Iid { get; set; }
+        public string? Videocasesarokno { get; set; }
+        public string? Vehiclenumber { get; set; }
+        public string? Ownername { get; set; }
+        public string? Owneraddress { get; set; }
+        public string? Contactnumber { get; set; }
+        public string? Caseid { get; set; }
+        public string? Division { get; set; }
+        public DateTime? Eventtime { get; set; }
+        public string? Eventlocation { get; set; }
+        public string? Prosecution { get; set; }
+        public DateTime? Hearingdate { get; set; }
+    }
 }

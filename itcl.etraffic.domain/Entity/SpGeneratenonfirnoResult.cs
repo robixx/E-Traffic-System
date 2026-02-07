@@ -1,6 +1,8 @@
 using System;
-
-public class SpGeneratenonfirnoResult
+namespace itcl.etraffic.domain.Entity
 {
-    public String Nonfirno { get; set; }
+    public class SpGeneratenonfirnoResult
+    {
+        public string? Nonfirno { get; set; }
+    }
 }

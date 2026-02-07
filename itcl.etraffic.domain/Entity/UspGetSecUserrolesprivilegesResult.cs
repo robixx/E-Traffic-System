@@ -1,20 +1,24 @@
 using System;
 
-public class UspGetSecUserrolesprivilegesResult
+
+namespace itcl.etraffic.domain.Entity
 {
-    public Int32? Userid { get; set; }
-    public String Username { get; set; }
-    public Int32? Roleid { get; set; }
-    public String Rolename { get; set; }
-    public String Issysadmin { get; set; }
-    public Int32? Privilegeid { get; set; }
-    public String Privilegename { get; set; }
-    public String Routename { get; set; }
-    public Boolean? Isnav { get; set; }
-    public Int32? Isparent { get; set; }
-    public Boolean Cancreate { get; set; }
-    public Boolean Canview { get; set; }
-    public Boolean Candelete { get; set; }
-    public Boolean Canedit { get; set; }
-    public Boolean Canprint { get; set; }
+    public class UspGetSecUserrolesprivilegesResult
+    {
+        public int? Userid { get; set; }
+        public string? Username { get; set; }
+        public int? Roleid { get; set; }
+        public string? Rolename { get; set; }
+        public string? Issysadmin { get; set; }
+        public int? Privilegeid { get; set; }
+        public string? Privilegename { get; set; }
+        public string? Routename { get; set; }
+        public Boolean? Isnav { get; set; }
+        public int? Isparent { get; set; }
+        public bool Cancreate { get; set; }
+        public bool Canview { get; set; }
+        public bool Candelete { get; set; }
+        public bool Canedit { get; set; }
+        public bool Canprint { get; set; }
+    }
 }

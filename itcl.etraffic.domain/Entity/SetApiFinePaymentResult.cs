@@ -1,9 +1,13 @@
 using System;
 
-public class SetApiFinePaymentResult
+namespace itcl.etraffic.domain.Entity
 {
-    public String Vehiclenumber { get; set; }
-    public Int32? Casestatus { get; set; }
-    public Int32? Code { get; set; }
-    public String Message { get; set; }
+
+    public class SetApiFinePaymentResult
+    {
+        public string? Vehiclenumber { get; set; }
+        public int? Casestatus { get; set; }
+        public int? Code { get; set; }
+        public string? Message { get; set; }
+    }
 }

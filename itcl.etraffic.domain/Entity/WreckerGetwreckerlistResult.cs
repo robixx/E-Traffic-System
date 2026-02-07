@@ -1,6 +1,10 @@
 using System;
 
-public class WreckerGetwreckerlistResult
+
+namespace itcl.etraffic.domain.Entity
 {
-    public String Operatorwreckerno { get; set; }
+    public class WreckerGetwreckerlistResult
+    {
+        public string? Operatorwreckerno { get; set; }
+    }
 }

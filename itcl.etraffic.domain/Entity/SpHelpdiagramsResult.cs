@@ -1,10 +1,14 @@
 using System;
 
-public class SpHelpdiagramsResult
+
+namespace itcl.etraffic.domain.Entity
 {
-    public String Database { get; set; }
-    public String Name { get; set; }
-    public int Id { get; set; }
-    public String Owner { get; set; }
-    public int Ownerid { get; set; }
+    public class SpHelpdiagramsResult
+    {
+        public string? Database { get; set; }
+        public string? Name { get; set; }
+        public int Id { get; set; }
+        public string? Owner { get; set; }
+        public int Ownerid { get; set; }
+    }
 }

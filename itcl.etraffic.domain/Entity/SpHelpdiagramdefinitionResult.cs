@@ -1,7 +1,11 @@
 using System;
 
-public class SpHelpdiagramdefinitionResult
+
+namespace itcl.etraffic.domain.Entity
 {
-    public Int32? Version { get; set; }
-    public Byte[] Definition { get; set; }
+    public class SpHelpdiagramdefinitionResult
+    {
+        public int? Version { get; set; }
+        public byte[] Definition { get; set; }
+    }
 }

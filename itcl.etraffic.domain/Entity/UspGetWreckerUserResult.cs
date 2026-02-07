@@ -1,9 +1,13 @@
 using System;
 
-public class UspGetWreckerUserResult
+
+namespace itcl.etraffic.domain.Entity
 {
-    public Int32 Userid { get; set; }
-    public String Loginname { get; set; }
-    public Int32? Moduleroute { get; set; }
-    public Int32? Rolecount { get; set; }
+    public class UspGetWreckerUserResult
+    {
+        public int Userid { get; set; }
+        public string? Loginname { get; set; }
+        public int? Moduleroute { get; set; }
+        public int? Rolecount { get; set; }
+    }
 }

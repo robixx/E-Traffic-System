@@ -1,8 +1,12 @@
 using System;
 
-public class WebServicePhqProsecutionResult
+
+namespace itcl.etraffic.domain.Entity
 {
-    public String Divisionname { get; set; }
-    public String Prosecutioncode { get; set; }
-    public Int32? Prosecutioncount { get; set; }
+    public class WebServicePhqProsecutionResult
+    {
+        public string? Divisionname { get; set; }
+        public string? Prosecutioncode { get; set; }
+        public int? Prosecutioncount { get; set; }
+    }
 }

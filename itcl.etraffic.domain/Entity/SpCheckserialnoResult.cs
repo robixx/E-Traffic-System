@@ -1,7 +1,10 @@
 using System;
 
-public class SpCheckserialnoResult
+namespace itcl.etraffic.domain.Entity
 {
-    public String Serialno { get; set; }
-    public String Formno { get; set; }
+    public class SpCheckserialnoResult
+    {
+        public string? Serialno { get; set; }
+        public string? Formno { get; set; }
+    }
 }

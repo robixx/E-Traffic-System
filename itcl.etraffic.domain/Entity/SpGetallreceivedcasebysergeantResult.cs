@@ -1,8 +1,12 @@
 using System;
 
-public class SpGetallreceivedcasebysergeantResult
+
+namespace itcl.etraffic.domain.Entity
 {
-    public Int32? Totalcase { get; set; }
-    public Decimal? Totalamount { get; set; }
-    public String Sergeantname { get; set; }
+    public class SpGetallreceivedcasebysergeantResult
+    {
+        public int? Totalcase { get; set; }
+        public decimal? Totalamount { get; set; }
+        public string? Sergeantname { get; set; }
+    }
 }

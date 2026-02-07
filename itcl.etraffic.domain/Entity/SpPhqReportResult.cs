@@ -1,10 +1,14 @@
 using System;
 
-public class SpPhqReportResult
+
+namespace itcl.etraffic.domain.Entity
 {
-    public DateTime? Dateofoffence { get; set; }
-    public Int32? Totalcase { get; set; }
-    public Decimal? Total { get; set; }
-    public Decimal? Discount { get; set; }
-    public Decimal? Collected { get; set; }
+    public class SpPhqReportResult
+    {
+        public DateTime? Dateofoffence { get; set; }
+        public int? Totalcase { get; set; }
+        public decimal? Total { get; set; }
+        public decimal? Discount { get; set; }
+        public decimal? Collected { get; set; }
+    }
 }

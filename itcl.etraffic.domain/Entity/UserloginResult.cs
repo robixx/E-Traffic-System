@@ -1,11 +1,15 @@
 using System;
 
-public class UserloginResult
+
+namespace itcl.etraffic.domain.Entity
 {
-    public Int64 Userid { get; set; }
-    public String Fullname { get; set; }
-    public Int32 Divisionid { get; set; }
-    public String Divisionname { get; set; }
-    public Int32 Roleid { get; set; }
-    public String Rolename { get; set; }
+    public class UserloginResult
+    {
+        public long Userid { get; set; }
+        public string? Fullname { get; set; }
+        public int Divisionid { get; set; }
+        public string? Divisionname { get; set; }
+        public int Roleid { get; set; }
+        public string? Rolename { get; set; }
+    }
 }

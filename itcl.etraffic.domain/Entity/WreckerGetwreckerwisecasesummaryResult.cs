@@ -1,9 +1,13 @@
 using System;
 
-public class WreckerGetwreckerwisecasesummaryResult
+
+namespace itcl.etraffic.domain.Entity
 {
-    public DateTime? Dateofoffence { get; set; }
-    public String Wreckernumber { get; set; }
-    public String Wreckerdivision { get; set; }
-    public Int32? Noofcase { get; set; }
+    public class WreckerGetwreckerwisecasesummaryResult
+    {
+        public DateTime? Dateofoffence { get; set; }
+        public string? Wreckernumber { get; set; }
+        public string? Wreckerdivision { get; set; }
+        public int? Noofcase { get; set; }
+    }
 }

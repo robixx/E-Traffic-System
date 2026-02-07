@@ -1,10 +1,14 @@
 using System;
 
-public class UspSpecialTrafficWeek2018Result
+
+namespace itcl.etraffic.domain.Entity
 {
-    public String Division { get; set; }
-    public String Name { get; set; }
-    public String Banglacode { get; set; }
-    public Int32? Casecount { get; set; }
-    public Decimal? Total { get; set; }
+    public class UspSpecialTrafficWeek2018Result
+    {
+        public string? Division { get; set; }
+        public string? Name { get; set; }
+        public string? Banglacode { get; set; }
+        public int? Casecount { get; set; }
+        public decimal? Total { get; set; }
+    }
 }

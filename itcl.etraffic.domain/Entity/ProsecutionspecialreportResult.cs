@@ -1,9 +1,13 @@
 using System;
 
-public class ProsecutionspecialreportResult
+
+namespace itcl.etraffic.domain.Entity
 {
-    public Int32? Totalcase { get; set; }
-    public Decimal? Totalamount { get; set; }
-    public Int32? Totalcasepaid { get; set; }
-    public Decimal? Totalcollected { get; set; }
+    public class ProsecutionspecialreportResult
+    {
+        public int? Totalcase { get; set; }
+        public decimal? Totalamount { get; set; }
+        public int? Totalcasepaid { get; set; }
+        public decimal? Totalcollected { get; set; }
+    }
 }

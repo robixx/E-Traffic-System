@@ -1,20 +1,25 @@
 using System;
 
-public class WreckerGetwreckerwisecasedetailsResult
+
+
+namespace itcl.etraffic.domain.Entity
 {
-    public DateTime? Dateofoffence { get; set; }
-    public String Vehiclenumber { get; set; }
-    public String Wreckernumber { get; set; }
-    public String Vehicletype { get; set; }
-    public String Wreckerdivision { get; set; }
-    public String Accusedperson { get; set; }
-    public String Fathername { get; set; }
-    public String Owneraddress { get; set; }
-    public String Contactnuber { get; set; }
-    public String Sergentname { get; set; }
-    public String Paymentstatus { get; set; }
-    public Decimal Totalfineamount { get; set; }
-    public Decimal Collectionamount { get; set; }
-    public String Sentfordumping { get; set; }
-    public String Spotfinepaid { get; set; }
+    public class WreckerGetwreckerwisecasedetailsResult
+    {
+        public DateTime? Dateofoffence { get; set; }
+        public string? Vehiclenumber { get; set; }
+        public string? Wreckernumber { get; set; }
+        public string? Vehicletype { get; set; }
+        public string? Wreckerdivision { get; set; }
+        public string? Accusedperson { get; set; }
+        public string? Fathername { get; set; }
+        public string? Owneraddress { get; set; }
+        public string? Contactnuber { get; set; }
+        public string? Sergentname { get; set; }
+        public string? Paymentstatus { get; set; }
+        public decimal Totalfineamount { get; set; }
+        public decimal Collectionamount { get; set; }
+        public string? Sentfordumping { get; set; }
+        public string? Spotfinepaid { get; set; }
+    }
 }
