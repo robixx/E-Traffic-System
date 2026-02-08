@@ -1,13 +1,18 @@
 using System;
 
-public class VehiclecaseprosecutiongetbyidResult
+
+namespace itcl.etraffic.domain.Entity
 {
-    public Int64 Iid { get; set; }
-    public Int64 Vehiclecaseid { get; set; }
-    public Int32 Prosecutionid { get; set; }
-    public DateTime Createdate { get; set; }
-    public DateTime Updatedate { get; set; }
-    public Int64 Createby { get; set; }
-    public Int64 Updateby { get; set; }
-    public Int32 Isremoved { get; set; }
+
+    public class VehiclecaseprosecutiongetbyidResult
+    {
+        public long Iid { get; set; }
+        public long Vehiclecaseid { get; set; }
+        public int Prosecutionid { get; set; }
+        public DateTime Createdate { get; set; }
+        public DateTime Updatedate { get; set; }
+        public long Createby { get; set; }
+        public long Updateby { get; set; }
+        public int Isremoved { get; set; }
+    }
 }

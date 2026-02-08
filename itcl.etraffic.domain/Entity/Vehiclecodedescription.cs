@@ -1,8 +1,11 @@
 using System;
 
-public class Vehiclecodedescription
+namespace itcl.etraffic.domain.Entity
 {
-    public int Iid { get; set; }
-    public string Description { get; set; }
-    public int? Isremoved { get; set; }
+    public class Vehiclecodedescription
+    {
+        public int Iid { get; set; }
+        public string? Description { get; set; }
+        public int? Isremoved { get; set; }
+    }
 }

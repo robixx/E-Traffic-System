@@ -1,13 +1,15 @@
 using System;
-
-public class VehiclecasetosundarbangetbyvehiclecaseidResult
+namespace itcl.etraffic.domain.Entity
 {
-    public Int64 Iid { get; set; }
-    public Int64 Vehiclecaseid { get; set; }
-    public DateTime Transferdate { get; set; }
-    public DateTime? Createdate { get; set; }
-    public DateTime? Updatedate { get; set; }
-    public Int32? Createby { get; set; }
-    public Int32? Updateby { get; set; }
-    public Int32? Isremoved { get; set; }
+    public class VehiclecasetosundarbangetbyvehiclecaseidResult
+    {
+        public long Iid { get; set; }
+        public long Vehiclecaseid { get; set; }
+        public DateTime Transferdate { get; set; }
+        public DateTime? Createdate { get; set; }
+        public DateTime? Updatedate { get; set; }
+        public int? Createby { get; set; }
+        public int? Updateby { get; set; }
+        public int? Isremoved { get; set; }
+    }
 }

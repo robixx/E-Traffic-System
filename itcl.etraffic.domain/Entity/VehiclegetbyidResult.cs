@@ -1,20 +1,23 @@
 using System;
 
-public class VehiclegetbyidResult
+namespace itcl.etraffic.domain.Entity
 {
-    public Int64 Iid { get; set; }
-    public Int32 Vehicleregistrationid { get; set; }
-    public Int32 Vehicleseriesid { get; set; }
-    public String Vehicleno { get; set; }
-    public String Ownername { get; set; }
-    public String Owneraddress { get; set; }
-    public DateTime Dateofregistration { get; set; }
-    public DateTime Renewofregistration { get; set; }
-    public String Engineno { get; set; }
-    public String Chassisno { get; set; }
-    public DateTime Createdate { get; set; }
-    public DateTime Updatedate { get; set; }
-    public Int64 Createby { get; set; }
-    public Int64 Updateby { get; set; }
-    public Int32 Isremoved { get; set; }
+    public class VehiclegetbyidResult
+    {
+        public long Iid { get; set; }
+        public int Vehicleregistrationid { get; set; }
+        public int Vehicleseriesid { get; set; }
+        public string? Vehicleno { get; set; }
+        public string? Ownername { get; set; }
+        public string? Owneraddress { get; set; }
+        public DateTime Dateofregistration { get; set; }
+        public DateTime Renewofregistration { get; set; }
+        public string? Engineno { get; set; }
+        public string? Chassisno { get; set; }
+        public DateTime Createdate { get; set; }
+        public DateTime Updatedate { get; set; }
+        public long Createby { get; set; }
+        public long Updateby { get; set; }
+        public int Isremoved { get; set; }
+    }
 }

@@ -1,7 +1,12 @@
 using System;
 
-public class VehiclecaseDownloadprosecutioncodeResult
+
+
+namespace itcl.etraffic.domain.Entity
 {
-    public Int32 Id { get; set; }
-    public String Code { get; set; }
+    public class VehiclecaseDownloadprosecutioncodeResult
+    {
+        public int Id { get; set; }
+        public string? Code { get; set; }
+    }
 }

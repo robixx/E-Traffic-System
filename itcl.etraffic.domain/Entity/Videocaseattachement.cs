@@ -1,9 +1,12 @@
 using System;
 
-public class Videocaseattachement
+namespace itcl.etraffic.domain.Entity
 {
-    public long Iid { get; set; }
-    public long Videocaseid { get; set; }
-    public string Attachmentfilename { get; set; }
-    public int Status { get; set; }
+    public class Videocaseattachement
+    {
+        public long Iid { get; set; }
+        public long Videocaseid { get; set; }
+        public string? Attachmentfilename { get; set; }
+        public int Status { get; set; }
+    }
 }

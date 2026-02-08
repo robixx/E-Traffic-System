@@ -1,11 +1,15 @@
 using System;
 
-public class VehiclecasepaymentstatusgetbyidResult
+
+namespace itcl.etraffic.domain.Entity
 {
-    public String Formno { get; set; }
-    public String Serialno { get; set; }
-    public String Vehicleno { get; set; }
-    public Decimal Total { get; set; }
-    public Decimal Collectionamount { get; set; }
-    public String Paymentstatus { get; set; }
+    public class VehiclecasepaymentstatusgetbyidResult
+    {
+        public string? Formno { get; set; }
+        public string? Serialno { get; set; }
+        public string? Vehicleno { get; set; }
+        public decimal Total { get; set; }
+        public decimal Collectionamount { get; set; }
+        public string? Paymentstatus { get; set; }
+    }
 }

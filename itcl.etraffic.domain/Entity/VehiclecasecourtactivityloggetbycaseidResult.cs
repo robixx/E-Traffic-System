@@ -1,20 +1,25 @@
 using System;
 
-public class VehiclecasecourtactivityloggetbycaseidResult
+
+
+namespace itcl.etraffic.domain.Entity
 {
-    public Int64 Vehiclecaseid { get; set; }
-    public Int32 Sendtocourtby { get; set; }
-    public Int32? Sendtocourtapprovedby { get; set; }
-    public DateTime Sendtocourtdate { get; set; }
-    public Int32 Ordercreatedby { get; set; }
-    public DateTime? Ordercreateddate { get; set; }
-    public Int32 Status { get; set; }
-    public Int64 Challanno { get; set; }
-    public Int32 Divisionid { get; set; }
-    public DateTime? Updatedate { get; set; }
-    public Int32? Challanreceiver { get; set; }
-    public DateTime? Challanreceiveddate { get; set; }
-    public Int32? Isremoved { get; set; }
-    public Int32 Arrestwarrantcreatedby { get; set; }
-    public DateTime? Arrestwarrantcreateddate { get; set; }
+    public class VehiclecasecourtactivityloggetbycaseidResult
+    {
+        public long Vehiclecaseid { get; set; }
+        public int Sendtocourtby { get; set; }
+        public int? Sendtocourtapprovedby { get; set; }
+        public DateTime Sendtocourtdate { get; set; }
+        public int Ordercreatedby { get; set; }
+        public DateTime? Ordercreateddate { get; set; }
+        public int Status { get; set; }
+        public long Challanno { get; set; }
+        public int Divisionid { get; set; }
+        public DateTime? Updatedate { get; set; }
+        public int? Challanreceiver { get; set; }
+        public DateTime? Challanreceiveddate { get; set; }
+        public int? Isremoved { get; set; }
+        public int Arrestwarrantcreatedby { get; set; }
+        public DateTime? Arrestwarrantcreateddate { get; set; }
+    }
 }
