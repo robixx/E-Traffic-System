@@ -4,7 +4,7 @@ namespace itcl.etraffic.domain.Entity
 {
     public class Vehicleseriesno
     {
-        public int Iid { get; set; }
+        public int IId { get; set; }
         public string? Code { get; set; }
         public string? Name { get; set; }
         public string? Banglaname { get; set; }

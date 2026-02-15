@@ -10,5 +10,11 @@ namespace itcl.etraffic.application.Interface
     public interface IDropDown
     {
         Task<(string Message, bool Status, List<DropDown>datalist)> getBrtaDataAsync();
+        Task<(string Message, bool Status, List<DropDown>datalist)> getSeriesDataAsync();
+        Task<(string Message, bool Status, List<DropDown>datalist)> getSerialNoTypeAsync();
+        Task<(string Message, bool Status, List<DropDown>datalist)> getDocuSeizedAsync();
+        Task<(string Message, bool Status, List<DropDown>datalist)> getProcecutorAsync();
+        Task<(string Message, bool Status, List<DropDown>datalist)> getDivisionWiseUserAsync(int userId);
+        
     }
 }

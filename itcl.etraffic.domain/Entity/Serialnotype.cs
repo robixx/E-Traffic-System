@@ -1,10 +1,12 @@
 using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace itcl.etraffic.domain.Entity
 {
-    public class Serialnotype
+    public class SerialNoType
     {
-        public int Iid { get; set; }
+        [Key]
+        public int IId { get; set; }
         public string? Name { get; set; }
         public int Isremoved { get; set; }
     }

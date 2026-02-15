@@ -33,7 +33,7 @@ builder.Services.AddSwaggerGen(c =>
     {
         Title = "ITCL E-Traffic System",
         Version = "2.0",
-        Description = "Official ITC E-Traffic Web API"
+        Description = "Official ITCL E-Traffic Web API"
     });
 });
 
