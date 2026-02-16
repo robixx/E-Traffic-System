@@ -22,6 +22,7 @@ namespace itcl.etraffic.persistance.DataConnection
         public DbSet<Sergeant> Sergeant { get; set; } = null!;
         public DbSet<Division> Division { get; set; } = null!;
         public DbSet<V2_Division_Filter_ForUser> V2_Division_Filter_ForUser { get; set; } = null!;
+        public DbSet<ProsecutionComments> ProsecutionComments { get; set; } = null!;
         
 
 
@@ -35,6 +36,7 @@ namespace itcl.etraffic.persistance.DataConnection
             modelBuilder.Entity<Sergeant>().HasKey(c => c.IId);
             modelBuilder.Entity<Division>().HasKey(c => c.IId);
             modelBuilder.Entity<V2_Division_Filter_ForUser>().HasKey(c => c.ID);
+            modelBuilder.Entity<ProsecutionComments>().HasKey(c => c.CID);
             base.OnModelCreating(modelBuilder);
         }
     }

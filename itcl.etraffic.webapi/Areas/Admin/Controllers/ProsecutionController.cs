@@ -10,94 +10,27 @@ namespace itcl.etraffic.webapi.Areas.Admin.Controllers
     public class ProsecutionController : ControllerBase
     {
 
-        private readonly IDropDown _dropdown;
+        private readonly IProsecution _prosecution;
 
-        public ProsecutionController(IDropDown dropdown)
+        public ProsecutionController(IProsecution prosecution)
         {
-            _dropdown = dropdown;
+           _prosecution = prosecution;
         }
 
 
-        [HttpGet("get-brtadata")]
+        [HttpGet("get-prosecutor-coments")]
         public async Task<IActionResult>getBrtaData()
         {
 
-            var result= await _dropdown.getBrtaDataAsync();
+            var result= await _prosecution.getProsecutionCommentAsync();
             return Ok(new
             {
                 Status=result.Status,
                 Message= result.Message,
-                data=result.datalist
+                data=result.Comment
             });
         }
 
-        [HttpGet("get-series")]
-        public async Task<IActionResult> getSeriesData()
-        {
-
-            var result = await _dropdown.getSeriesDataAsync();
-            return Ok(new
-            {
-                Status = result.Status,
-                Message = result.Message,
-                data = result.datalist
-            });
-        }
-
-
-        [HttpGet("get-serialtype")]
-        public async Task<IActionResult> getSerialNoTypeData()
-        {
-
-            var result = await _dropdown.getSerialNoTypeAsync();
-            return Ok(new
-            {
-                Status = result.Status,
-                Message = result.Message,
-                data = result.datalist
-            });
-        }
-
-
-
-        [HttpGet("get-documentserized")]
-        public async Task<IActionResult> getDocumentSerized()
-        {
-
-            var result = await _dropdown.getDocuSeizedAsync();
-            return Ok(new
-            {
-                Status = result.Status,
-                Message = result.Message,
-                data = result.datalist
-            });
-        }
-
-        [HttpGet("get-procecutor")]
-        public async Task<IActionResult> getProcecutorData()
-        {
-
-            var result = await _dropdown.getProcecutorAsync();
-            return Ok(new
-            {
-                Status = result.Status,
-                Message = result.Message,
-                data = result.datalist
-            });
-        }
-
-
-        [HttpGet("get-division-wise-procecutor")]
-        public async Task<IActionResult> getDivisionWiseUser(int userId)
-        {
-
-            var result = await _dropdown.getDivisionWiseUserAsync(userId);
-            return Ok(new
-            {
-                Status = result.Status,
-                Message = result.Message,
-                data = result.datalist
-            });
-        }
+        
     }
 }

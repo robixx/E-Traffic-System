@@ -16,6 +16,7 @@ namespace itcl.etraffic.infrastructure.ServiceDependancy
         {
             
             services.AddScoped<IDropDown, DropdownService>();
+            services.AddScoped<IProsecution, ProsecutorService>();
         }
     }
 }
