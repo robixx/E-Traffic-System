@@ -5,9 +5,9 @@ namespace itcl.etraffic.domain.Entity
 {
     public class ApiEndpointPermission
     {
-        public long Userid { get; set; }
-        public int Endpointid { get; set; }
-        public int Isactive { get; set; }
+        public long UserId { get; set; }
+        public int EndpointId { get; set; }
+        public int IsActive { get; set; }
     }
 
 }

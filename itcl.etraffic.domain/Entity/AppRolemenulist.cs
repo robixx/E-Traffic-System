@@ -5,11 +5,11 @@ namespace itcl.etraffic.domain.Entity
 {
     public class AppRolemenulist
     {
-        public long Rolemenuid { get; set; }
-        public int Roleid { get; set; }
-        public int Menuid { get; set; }
+        public long RoleMenuId { get; set; }
+        public int RoleId { get; set; }
+        public int MenuId { get; set; }
         public int Createdby { get; set; }
         public DateTime Createdate { get; set; }
-        public int Isactive { get; set; }
+        public int IsActive { get; set; }
     }
 }

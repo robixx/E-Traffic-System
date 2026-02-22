@@ -4,7 +4,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
-
 // Add services to the container.
 builder.Services.AddDbContext<DMPDBContext>
     (options => options.UseSqlServer(builder.Configuration.GetConnectionString("SQLConnection")));
@@ -39,7 +38,6 @@ builder.Services.AddSwaggerGen(c =>
 
 builder.Services.InjectService();
 var app = builder.Build();
-
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {

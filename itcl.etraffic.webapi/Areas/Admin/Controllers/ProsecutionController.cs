@@ -23,6 +23,7 @@ namespace itcl.etraffic.webapi.Areas.Admin.Controllers
         {
 
             var result= await _prosecution.getProsecutionCommentAsync();
+
             return Ok(new
             {
                 Status=result.Status,

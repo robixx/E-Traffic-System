@@ -40,7 +40,6 @@ namespace itcl.etraffic.persistance.DataConnection
             modelBuilder.Entity<V2_Division_Filter_ForUser>().HasKey(c => c.ID);
             modelBuilder.Entity<ProsecutionComments>().HasKey(c => c.CID);
             modelBuilder.Entity<RoleGetAllDto>().HasNoKey();
-
             base.OnModelCreating(modelBuilder);
         }
     }

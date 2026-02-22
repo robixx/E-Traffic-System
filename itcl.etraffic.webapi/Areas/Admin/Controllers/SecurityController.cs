@@ -17,7 +17,8 @@ namespace itcl.etraffic.webapi.Areas.Admin.Controllers
             _auth = auth;
         }
 
-        [HttpGet("get-role")]
+
+        [HttpGet("get-roledata")]
         public async Task<IActionResult> GetRoleData()
         {
             var result = await _auth.getRoleDataAsync();
