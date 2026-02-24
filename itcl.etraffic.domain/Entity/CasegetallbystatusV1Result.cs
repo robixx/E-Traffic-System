@@ -5,11 +5,11 @@ namespace itcl.etraffic.domain.Entity
 
     public class CasegetallbystatusV1Result
     {
-        public long Iid { get; set; }
+        public long IId { get; set; }
         public string? Formno { get; set; }
         public string? Serialno { get; set; }
         public int Vehicleregistrationid { get; set; }
-        public int Seriesid { get; set; }
+        public int SeriesId { get; set; }
         public string? Vehicleno { get; set; }
         public string? Chasisno { get; set; }
         public int? Isspecial { get; set; }

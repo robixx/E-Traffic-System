@@ -5,7 +5,7 @@ namespace itcl.etraffic.domain.Entity
 {
     public class Casepaymentrequest
     {
-        public long Caseid { get; set; }
+        public long CaseId { get; set; }
         public double Fineamount { get; set; }
         public DateTime Paymentdate { get; set; }
         public string? Reversalnumber { get; set; }

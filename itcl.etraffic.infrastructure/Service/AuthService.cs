@@ -27,7 +27,6 @@ namespace itcl.etraffic.infrastructure.Service
             {
                 var whereParam = new SqlParameter("@WhereClause", DBNull.Value);
                 var orderParam = new SqlParameter("@OrderBy", DBNull.Value);
-
                 var result = await _dmpdbcontext.RoleGetAllDto
                                .FromSqlRaw("EXEC RoleGetAll @WhereClause, @OrderBy", whereParam, orderParam)
                                .AsNoTracking()
