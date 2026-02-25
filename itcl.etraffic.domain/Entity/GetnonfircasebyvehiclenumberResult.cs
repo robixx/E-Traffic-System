@@ -5,7 +5,7 @@ namespace itcl.etraffic.domain.Entity
 {
     public class GetnonfircasebyvehiclenumberResult
     {
-        public long Caseid { get; set; }
+        public long CaseId { get; set; }
         public string? Vehiclenumber { get; set; }
         public string? Nonfirno { get; set; }
         public string? Nonfirstatus { get; set; }

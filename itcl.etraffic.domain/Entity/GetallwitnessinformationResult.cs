@@ -4,7 +4,7 @@ namespace itcl.etraffic.domain.Entity
 {
     public class GetallwitnessinformationResult
     {
-        public string? Bpid { get; set; }
+        public string? BpId { get; set; }
         public string? Witname { get; set; }
         public string? Nameinbangla { get; set; }
         public string? Fathersname { get; set; }
@@ -15,7 +15,7 @@ namespace itcl.etraffic.domain.Entity
         public string? Divisionname { get; set; }
         public int Zoneid { get; set; }
         public string? Zonename { get; set; }
-        public int Isremoved { get; set; }
+        public int IsRemoved { get; set; }
         public string? Status { get; set; }
     }
 

@@ -6,7 +6,7 @@ namespace itcl.etraffic.domain.Entity
 {
     public class GetApiCaseStatusResult
     {
-        public long Caseid { get; set; }
+        public long CaseId { get; set; }
         public string? Vehiclenumber { get; set; }
         public DateTime? Offencedate { get; set; }
         public decimal? Fineamount { get; set; }
@@ -17,6 +17,6 @@ namespace itcl.etraffic.domain.Entity
         public string? Transactionnumber { get; set; }
         public string? Transactiondate { get; set; }
         public string? Transactiontime { get; set; }
-        public string? Casestatus { get; set; }
+        public string? CaseStatus { get; set; }
     }
 }

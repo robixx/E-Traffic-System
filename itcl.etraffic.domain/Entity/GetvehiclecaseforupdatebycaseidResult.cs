@@ -5,9 +5,9 @@ namespace itcl.etraffic.domain.Entity
 {
     public class GetvehiclecaseforupdatebycaseidResult
     {
-        public long Caseid { get; set; }
+        public long CaseId { get; set; }
         public int Vehicleregistrationid { get; set; }
-        public int Seriesid { get; set; }
+        public int SeriesId { get; set; }
         public string? Vehicleno { get; set; }
         public string? Chasisno { get; set; }
         public long Sergeantid { get; set; }

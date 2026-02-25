@@ -4,7 +4,7 @@ namespace itcl.etraffic.domain.Entity
 {
     public class HanddelivereddatasearchbycaseidV1Result
     {
-        public long Iid { get; set; }
+        public long IId { get; set; }
         public string? Formno { get; set; }
         public string? Serialno { get; set; }
         public int Vehicleregistrationid { get; set; }

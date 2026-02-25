@@ -6,7 +6,7 @@ namespace itcl.etraffic.domain.Entity
     public class HanddelivereddatasearchbycaseidResult
     {
         public long  Rownumber { get; set; }
-        public long Caseid { get; set; }
+        public long CaseId { get; set; }
         public string? Vehiclenumber { get; set; }
         public decimal Collectionamount { get; set; }
         public DateTime? Offencedate { get; set; }

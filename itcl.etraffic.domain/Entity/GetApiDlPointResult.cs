@@ -4,7 +4,7 @@ namespace itcl.etraffic.domain.Entity
 {
     public class GetApiDlPointResult
     {
-        public string? Caseid { get; set; }
+        public string? CaseId { get; set; }
         public string? Offencedate { get; set; }
         public string? Place { get; set; }
         public string? Accusedperson { get; set; }

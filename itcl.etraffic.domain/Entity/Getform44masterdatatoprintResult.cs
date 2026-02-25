@@ -5,7 +5,7 @@ namespace itcl.etraffic.domain.Entity
 {
     public class Getform44masterdatatoprintResult
     {
-        public long Caseid { get; set; }
+        public long CaseId { get; set; }
         public string? Offencedate { get; set; }
         public string? Offencetime { get; set; }
         public string? Location { get; set; }
