@@ -5,8 +5,8 @@ namespace itcl.etraffic.domain.Entity
 
     public class PaymentmediumgetbyidResult
     {
-        public int Iid { get; set; }
+        public int IId { get; set; }
         public string? Name { get; set; }
-        public int Isremoved { get; set; }
+        public int IsRemoved { get; set; }
     }
 }

@@ -5,7 +5,7 @@ namespace itcl.etraffic.domain.Entity
 {
     public class Maxvehiclecaseid
     {
-        public int Iid { get; set; }
-        public long Maxcaseid { get; set; }
+        public int IId { get; set; }
+        public long MaxcaseId { get; set; }
     }
 }

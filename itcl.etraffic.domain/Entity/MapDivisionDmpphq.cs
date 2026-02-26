@@ -5,7 +5,7 @@ namespace itcl.etraffic.domain.Entity
 {
     public class MapDivisionDmpphq
     {
-        public int Dmpdivid { get; set; }
-        public int Phqdivid { get; set; }
+        public int DmpdivId { get; set; }
+        public int PhqdivId { get; set; }
     }
 }

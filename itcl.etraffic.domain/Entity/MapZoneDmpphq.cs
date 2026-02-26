@@ -5,9 +5,9 @@ namespace itcl.etraffic.domain.Entity
 {
     public class MapZoneDmpphq
     {
-        public int Dmpzoneid { get; set; }
-        public int Phqzoneid { get; set; }
-        public int Dmpdivsionid { get; set; }
-        public int Phqdivisionid { get; set; }
+        public int DmpzoneId { get; set; }
+        public int PhqzoneId { get; set; }
+        public int DmpdivsionId { get; set; }
+        public int PhqdivisionId { get; set; }
     }
 }
