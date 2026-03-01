@@ -5,7 +5,7 @@ namespace itcl.etraffic.domain.Entity
 {
     public class ProcGetuserinformationbyuseridResult
     {
-        public long Iid { get; set; }
+        public long IId { get; set; }
         public string? Name { get; set; }
         public string? Loginname { get; set; }
         public string? Password { get; set; }

@@ -4,11 +4,11 @@ namespace itcl.etraffic.domain.Entity
 {
     public class ProcFinecollectiondetailV1Result
     {
-        public long Iid { get; set; }
+        public long IId { get; set; }
         public string? Formno { get; set; }
         public string? Serialno { get; set; }
         public int Vehicleregistrationid { get; set; }
-        public int Seriesid { get; set; }
+        public int SeriesId { get; set; }
         public string? Vehicleno { get; set; }
         public string? Chasisno { get; set; }
         public int? Isspecial { get; set; }
@@ -45,6 +45,6 @@ namespace itcl.etraffic.domain.Entity
         public string? Caseslipno { get; set; }
         public int? Entrymediumid { get; set; }
         public int? Divisionid { get; set; }
-        public int? Serialnotypeid { get; set; }
+        public int? SerialnotypeId { get; set; }
     }
 }

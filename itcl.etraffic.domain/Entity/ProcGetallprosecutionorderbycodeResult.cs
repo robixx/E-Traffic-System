@@ -5,7 +5,7 @@ namespace itcl.etraffic.domain.Entity
 {
     public class ProcGetallprosecutionorderbycodeResult
     {
-        public int Iid { get; set; }
+        public int IId { get; set; }
         public string? Code { get; set; }
         public string? Banglacode { get; set; }
         public string? Name { get; set; }
@@ -13,6 +13,6 @@ namespace itcl.etraffic.domain.Entity
         public string? Banglaamount { get; set; }
         public decimal Specialamount { get; set; }
         public string? Specialbanglaamount { get; set; }
-        public int Isremoved { get; set; }
+        public int IsRemoved { get; set; }
     }
 }
