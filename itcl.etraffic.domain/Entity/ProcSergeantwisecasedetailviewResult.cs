@@ -5,7 +5,7 @@ namespace itcl.etraffic.domain.Entity
 {
     public class ProcSergeantwisecasedetailviewResult
     {
-        public long Iid { get; set; }
+        public long IId { get; set; }
         public string? Formno { get; set; }
         public string? Serialno { get; set; }
         public int Vehicleregistrationid { get; set; }
@@ -44,8 +44,8 @@ namespace itcl.etraffic.domain.Entity
         public int Isremoved { get; set; }
         public string? Nonfirno { get; set; }
         public string? Caseslipno { get; set; }
-        public int? Entrymediumid { get; set; }
-        public int? Divisionid { get; set; }
-        public int? Serialnotypeid { get; set; }
+        public int? EntrymediumId { get; set; }
+        public int? DivisionId { get; set; }
+        public int? SerialnotypeId { get; set; }
     }
 }

@@ -7,7 +7,7 @@ namespace itcl.etraffic.domain.Entity
 {
     public class ProcPopulatevehiclecaseforsergeantResult
     {
-        public long Iid { get; set; }
+        public long IId { get; set; }
         public long Formno { get; set; }
         public string? Serialno { get; set; }
         public int Vehicleregistrationid { get; set; }

@@ -5,7 +5,7 @@ namespace itcl.etraffic.domain.Entity
 {
     public class ProcSergeantwisecasereceivedResult
     {
-        public long Iid { get; set; }
+        public long IId { get; set; }
         public string? Formno { get; set; }
         public string? Serialno { get; set; }
         public int Vehicleregistrationid { get; set; }
@@ -41,7 +41,7 @@ namespace itcl.etraffic.domain.Entity
         public DateTime Updatedate { get; set; }
         public long Createby { get; set; }
         public long Updateby { get; set; }
-        public int Isremoved { get; set; }
+        public int IsRemoved { get; set; }
         public string? Nonfirno { get; set; }
         public string? Caseslipno { get; set; }
         public int? Entrymediumid { get; set; }

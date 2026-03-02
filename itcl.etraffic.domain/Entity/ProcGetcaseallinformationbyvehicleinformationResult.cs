@@ -5,7 +5,7 @@ namespace itcl.etraffic.domain.Entity
 {
     public class ProcGetcaseallinformationbyvehicleinformationResult
     {
-        public long Iid { get; set; }
+        public long IId { get; set; }
         public string? Serialno { get; set; }
         public string? Vehicleregistrationno { get; set; }
         public string? Accusedperson { get; set; }
