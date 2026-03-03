@@ -5,7 +5,7 @@ namespace itcl.etraffic.domain.Entity
 {
     public class WreckerVehiclecase
     {
-        public long Iid { get; set; }
+        public long IId { get; set; }
         public int Vehicleregistrationid { get; set; }
         public int Seriesid { get; set; }
         public string? Vehicleno { get; set; }
@@ -50,6 +50,6 @@ namespace itcl.etraffic.domain.Entity
         public DateTime? Createdate { get; set; }
         public long? Updateby { get; set; }
         public DateTime? Updatedate { get; set; }
-        public int? Isremoved { get; set; }
+        public int? IsRemoved { get; set; }
     }
 }

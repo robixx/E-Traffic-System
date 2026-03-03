@@ -5,7 +5,7 @@ namespace itcl.etraffic.domain.Entity
 {
     public class WreckerSergents
     {
-        public int Iid { get; set; }
+        public int IId { get; set; }
         public int Sergeantid { get; set; }
         public string? Callsign { get; set; }
         public int Zoneid { get; set; }
