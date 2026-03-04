@@ -4,7 +4,7 @@ namespace itcl.etraffic.domain.Entity
 {
     public class VehiclegetbyidResult
     {
-        public long Iid { get; set; }
+        public long IId { get; set; }
         public int Vehicleregistrationid { get; set; }
         public int Vehicleseriesid { get; set; }
         public string? Vehicleno { get; set; }
@@ -18,6 +18,6 @@ namespace itcl.etraffic.domain.Entity
         public DateTime Updatedate { get; set; }
         public long Createby { get; set; }
         public long Updateby { get; set; }
-        public int Isremoved { get; set; }
+        public int IsRemoved { get; set; }
     }
 }
