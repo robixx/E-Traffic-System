@@ -6,7 +6,7 @@ namespace itcl.etraffic.domain.Entity
 
     public class WreckerDownloaddumpingstationWizResult
     {
-        public long Iid { get; set; }
+        public long IId { get; set; }
         public string? Stationname { get; set; }
     }
 }

@@ -6,7 +6,7 @@ namespace itcl.etraffic.domain.Entity
 {
     public class Witnessinformation
     {
-        public string? Bpid { get; set; }
+        public string? BpId { get; set; }
         public string? Witname { get; set; }
         public string? Nameinbangla { get; set; }
         public string? Fathersname { get; set; }
@@ -19,6 +19,6 @@ namespace itcl.etraffic.domain.Entity
         public DateTime Createdate { get; set; }
         public int? Updateby { get; set; }
         public DateTime? Updatedate { get; set; }
-        public int Isremoved { get; set; }
+        public int IsRemoved { get; set; }
     }
 }

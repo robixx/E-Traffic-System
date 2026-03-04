@@ -5,7 +5,7 @@ namespace itcl.etraffic.domain.Entity
 {
     public class WreckerGetcasedetailsreportResult
     {
-        public long Caseid { get; set; }
+        public long CaseId { get; set; }
         public string? Vehicleno { get; set; }
         public string? Typename { get; set; }
         public string? Accusedperson { get; set; }

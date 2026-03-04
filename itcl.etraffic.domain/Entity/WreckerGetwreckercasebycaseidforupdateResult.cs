@@ -5,7 +5,7 @@ namespace itcl.etraffic.domain.Entity
 {
     public class WreckerGetwreckercasebycaseidforupdateResult
     {
-        public long Caseid { get; set; }
+        public long CaseId { get; set; }
         public DateTime? Dateofoffence { get; set; }
         public string? Vehiclenumber { get; set; }
         public string? Wreckernumber { get; set; }

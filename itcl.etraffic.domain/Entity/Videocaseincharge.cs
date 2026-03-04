@@ -4,7 +4,7 @@ namespace itcl.etraffic.domain.Entity
 {
     public class Videocaseincharge
     {
-        public int Iid { get; set; }
+        public int IId { get; set; }
         public int Divisionid { get; set; }
         public string? Divisionbanglaname { get; set; }
         public string? Divisionbanglaaddress { get; set; }
