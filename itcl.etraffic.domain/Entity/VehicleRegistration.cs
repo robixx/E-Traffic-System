@@ -11,6 +11,6 @@ namespace itcl.etraffic.domain.Entity
         public string? Code { get; set; }
         public string? Name { get; set; }
         public string? Banglaname { get; set; }
-        public int Isremoved { get; set; }
+        public int IsRemoved { get; set; }
     }
 }
