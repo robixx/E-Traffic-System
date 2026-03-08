@@ -20,6 +20,6 @@ namespace itcl.etraffic.domain.Entity
         public DateTime? Updatedate { get; set; }
         public int? Challanreceiver { get; set; }
         public DateTime? Challanreceiveddate { get; set; }
-        public int? Isremoved { get; set; }
+        public int? IsRemoved { get; set; }
     }
 }
