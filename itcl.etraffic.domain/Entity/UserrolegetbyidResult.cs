@@ -5,7 +5,7 @@ namespace itcl.etraffic.domain.Entity
 {
     public class UserrolegetbyidResult
     {
-        public long Iid { get; set; }
+        public long IId { get; set; }
         public long Userid { get; set; }
         public long Roleid { get; set; }
         public DateTime Createdate { get; set; }

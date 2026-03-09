@@ -10,6 +10,6 @@ namespace itcl.etraffic.domain.Entity
         public string? Prosecutionname { get; set; }
         public int? Commentid { get; set; }
         public string? Commentname { get; set; }
-        public int? Isselected { get; set; }
+        public int? IsSelected { get; set; }
     }
 }

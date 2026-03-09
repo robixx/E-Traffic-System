@@ -5,10 +5,10 @@ namespace itcl.etraffic.domain.Entity
 {
     public class UspGetSecUserroleResult
     {
-        public int? Userid { get; set; }
+        public int? UserId { get; set; }
         public string? Username { get; set; }
         public int? Roleid { get; set; }
         public string? Rolename { get; set; }
-        public string? Issysadmin { get; set; }
+        public string? IssysAdmin { get; set; }
     }
 }

@@ -5,7 +5,7 @@ namespace itcl.etraffic.domain.Entity
 {
     public class UspGetInvHrisUserResult
     {
-        public int Userid { get; set; }
+        public int UserId { get; set; }
         public string? Loginname { get; set; }
         public int? Moduleroute { get; set; }
         public int? Rolecount { get; set; }

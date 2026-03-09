@@ -4,7 +4,7 @@ namespace itcl.etraffic.domain.Entity
 {
     public class SpVideocaseviewforprintResult
     {
-        public long Iid { get; set; }
+        public long IId { get; set; }
         public string? Videocasesarokno { get; set; }
         public string? Vehiclenumber { get; set; }
         public string? Ownername { get; set; }
