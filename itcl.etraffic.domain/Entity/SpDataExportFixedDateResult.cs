@@ -4,7 +4,7 @@ namespace itcl.etraffic.domain.Entity
 {
     public class SpDataExportFixedDateResult
     {
-        public long Iid { get; set; }
+        public long IId { get; set; }
         public string? Vehicleno { get; set; }
         public decimal Total { get; set; }
         public decimal Collectionamount { get; set; }
